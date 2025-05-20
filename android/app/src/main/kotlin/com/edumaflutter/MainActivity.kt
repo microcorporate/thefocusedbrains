@@ -1,4 +1,4 @@
-package com.edumaflutter
+package com.thefocusedbrains
 
 import io.flutter.embedding.android.FlutterActivity
 

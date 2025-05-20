@@ -1,8 +1,8 @@
 class Environments {
-  static const String appName = 'Eduma';
-  static const String companyName = 'Phycodes';
-  static const String apiBaseURL = 'https://test.thimpress.com/';
-  static const String websiteURL = 'https://test.thimpress.com/';
+  static const String appName = 'Focused Brains';
+  static const String companyName = 'The Focused Brains';
+  static const String apiBaseURL = 'https://thefocusedbrains.com';
+  static const String websiteURL = 'https://thefocusedbrains.com';
   static const String appVersion = '1.2.0';
   static const String appBuild = '10100';
   //login social

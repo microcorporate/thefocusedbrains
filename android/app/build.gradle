@@ -32,7 +32,7 @@ if (localPropertiesFile.exists()) {
     apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
     android {
-        namespace 'com.edumaflutter'
+        namespace 'com.thefocusedbrains'
         compileSdkVersion localProperties.getProperty('flutter.compileSdkVersion') != null ? localProperties.getProperty('flutter.compileSdkVersion').toInteger() : 33
         ndkVersion flutter.ndkVersion
 
@@ -52,7 +52,7 @@ if (localPropertiesFile.exists()) {
 
         defaultConfig {
             // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-            applicationId "com.edumaflutter"
+            applicationId "com.thefocusedbrains"
             // You can update the following values to match your application needs.
             // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-build-configuration.
             minSdkVersion localProperties.getProperty('flutter.minSdkVersion').toInteger()
